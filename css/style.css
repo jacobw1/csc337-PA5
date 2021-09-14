@@ -1,0 +1,42 @@
+body{
+  font-style: Courier;
+}
+
+#sidebar{
+  background-color: #26c2ce;
+  width: 30%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#caesar_cipher{
+  background-color: #fe690a;
+  width: 70%;
+  height: 50%;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+#square_cipher{
+  background-color: #ecd36b;
+  width: 70%;
+  height: 50%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+#name{
+  font-style: impact;
+  font-size: 60px;
+  text-align: center;
+  color: #c22854;
+}
+
+.cipher{
+  font-size: 50px;
+  text-align: center;
+}
