@@ -4,7 +4,7 @@ body{
 
 #sidebar{
   background-color: #26c2ce;
-  width: 30%;
+  width: 20%;
   height: 100%;
   position: fixed;
   top: 0;
@@ -13,7 +13,7 @@ body{
 
 #caesar_cipher{
   background-color: #fe690a;
-  width: 70%;
+  width: 80%;
   height: 50%;
   position: fixed;
   top: 0;
@@ -22,7 +22,7 @@ body{
 
 #square_cipher{
   background-color: #ecd36b;
-  width: 70%;
+  width: 80%;
   height: 50%;
   position: fixed;
   bottom: 0;
@@ -34,6 +34,34 @@ body{
   font-size: 60px;
   text-align: center;
   color: #c22854;
+}
+
+#input_fields{
+  text-align: center;
+}
+
+#input_fields input{
+  text-align: center;
+  width: 80%;
+  margin-bottom: 25px;
+}
+
+#sqaure{
+  text-align: center;
+}
+#square table{
+  font-size: 30px;
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 5px #c22854;
+  border-collapse: collapse;
+}
+
+#square td{
+  border: solid 5px #c22854;
+  padding: 10px;
 }
 
 .cipher{
