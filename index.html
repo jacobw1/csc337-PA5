@@ -1,4 +1,5 @@
-
+<!-- Author: Jacob Williams -->
+<!-- Purpose: creates html tags and outline for displaying encriptions-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,62 +9,29 @@
 </head>
 <body>
   <div id="sidebar">
-    <h1 id="name">sidebar</h1>
-    <form id="input_fields" action="pa5.js">
-      <input id="text_field" type="text" name="text_field">
+    <h1 id="name">Welcome to The Jumble</h1>
+    <div id="input_fields">
+      <input id="text_field" type="text" name="text_field" value="Welcome to The Jumble">
       <br>
-      <label for="slider_field"> 13 </label>
-      <input id="slider_field" type="range" min="0" max="26" name="slider_field" value="13">
+      <label id="slider_number" for="slider_field"> 0 </label>
+      <input id="slider_field" type="range" min="0" max="26" name="slider_field" value="0">
       <br>
-      <input type="submit" name="update_button" value="update square">
-    </form>
+      <button id="update_button" onclick =button_pressed()> update square</button>
+    </div>
     <div id="square">
       <table>
-        <tr>
-          <td>a</td>
-          <td>a</td>
-          <td>a</td>
-          <td>a</td>
-          <td>a</td>
-        </tr>
-        <tr>
-          <td>a</td>
-          <td>a</td>
-          <td>a</td>
-          <td>a</td>
-          <td>a</td>
-        </tr>
-        <tr>
-          <td>a</td>
-          <td>a</td>
-          <td>a</td>
-          <td>a</td>
-          <td>a</td>
-        </tr>
-        <tr>
-          <td>a</td>
-          <td>a</td>
-          <td>a</td>
-          <td>a</td>
-          <td>a</td>
-        </tr>
-        <tr>
-          <td>a</td>
-          <td>a</td>
-          <td>a</td>
-          <td>a</td>
-          <td>a</td>
-        </tr>
+        <tr id="row0"> <td></td> </tr>
+        <tr id="row1"> <td></td> </tr>
+        <tr id="row2"> <td></td> </tr>
+        <tr id="row3"> <td></td> </tr>
+        <tr id="row4"> <td></td> </tr>
       </table>
     </div>
   </div>
   <div id="caesar_cipher" class="cipher">
-    caesar cipher
   </div>
   <div id="square_cipher" class="cipher">
-    square cipher
   </div>
+  <script src="js/pa5.js"></script>
 </body>
-<script type="text/javascript" src="js/pa5.js"></script>
-
 </html>
