@@ -63,7 +63,6 @@ function createGrid(){
       "<td>"+ square[i*5+2]+"</td>" +
       "<td>"+ square[i*5+3]+"</td>" +
       "<td>"+ square[i*5+4]+"</td>";
-    console.log(curr_row.innerHTML);
   }
 }
 // URL: https://javascript.info/task/shuffle
